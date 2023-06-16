@@ -21,7 +21,7 @@
             background-image: url(https://www.ghibli.jp/img/totoro.png);
             background-position: right;
             background-repeat: no-repeat;
-            background-size: cover;
+            background-size: contain;
             color: #fff;
             padding: 50px;
             text-align: center;
@@ -61,12 +61,17 @@
         .movie p {
             margin-top: 10px;
         }
+        .movie, .movie img, .movie h2, .movie p {
+        background-size: contain;
+        background-repeat: no-repeat;
+        }
         footer {
             background-color: #333;
             color: #fff;
             padding: 20px;
             text-align: center;
         }
+        
     </style>
 </head>
 <body>
@@ -188,8 +193,8 @@
     </main>
     <footer>
         <p>&copy; 2023 Zzyan's Website. Happy Everyday.</p>
-        <p>圖片出處:<a href="https://www.ghibli.jp/" >吉卜力工作室官方網站</a></p>
-        <p>資料出處:<a href="https://zh.wikipedia.org/wiki/%E5%90%89%E5%8D%9C%E5%8A%9B%E5%B7%A5%E4%BD%9C%E5%AE%A4" target="_blank">吉卜力工作室 維基百科</a></p>
+        <p>圖片出處:<a href="https://www.ghibli.jp/" target="_blank">吉卜力工作室官方網站</a>
+            資料出處:<a href="https://zh.wikipedia.org/wiki/%E5%90%89%E5%8D%9C%E5%8A%9B%E5%B7%A5%E4%BD%9C%E5%AE%A4" target="_blank" >吉卜力工作室 維基百科</a></p>
     </footer>
 </body>
 </html>

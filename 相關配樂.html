@@ -19,7 +19,7 @@
             background-image: url(https://www.ghibli.jp/img/totoro.png);
             background-position: right;
             background-repeat: no-repeat;
-            background-size: cover;
+            background-size: contain;
             color: #fff;
             padding: 50px;
             text-align: center;
@@ -62,6 +62,10 @@
         .music p {
             margin-top: 10px;
             font-style: italic;
+        }
+        .music, .music img , .music h2, .music p {
+        background-size: contain;
+        background-repeat: no-repeat;
         }
         footer {
             background-color: #333;
@@ -108,7 +112,7 @@
         <div class="music">
             <img src="https://www.ghibli.jp/images/ponyo.jpg" alt="Music Image">
             <div>
-                <h2>曲名:崖上的波妞 (崖の上のポニョ)</h2>
+                <h2>曲名:崖上的波妞 <br>(崖の上のポニョ)</h2>
                 <p>作詞:宮崎駿 </p>
                 <p>作曲:久石讓 </p>
                 <p>所屬電影:崖上的波妞 崖の上のポニョ</p>
@@ -148,7 +152,7 @@
         <div class="music">
             <img src="https://www.ghibli.jp/images/majo.jpg" alt="Music Image">
             <div>
-                <h2>曲名:能看見海的街道 (海の見える街)</h2>
+                <h2>曲名:能看見海的街道 <br>(海の見える街)</h2>
                 <p>作曲:久石讓 </p>
                 <p>所屬電影:魔女宅急便 魔女の宅急便</p>
                 <p>影片連結:<a href="https://youtu.be/N4K8b87jEHI" target="_blank">海の見える街</a></p>
@@ -240,7 +244,9 @@
     </main>
     <footer>
         <p>&copy; 2023 Zzyan's Website. Happy Everyday.</p>
-        <p>資料出處:<a href="https://www.ghibli.jp/">吉卜力工作室官方網站</a></p>
+        <p>圖片出處:<a href="https://www.ghibli.jp/" target="_blank">吉卜力工作室官方網站</a>
+            資料出處:<a href="https://zh.wikipedia.org/wiki/%E5%90%89%E5%8D%9C%E5%8A%9B%E5%B7%A5%E4%BD%9C%E5%AE%A4" target="_blank" >吉卜力工作室 維基百科</a></p>
+        
     </footer>
 </body>
 </html>
